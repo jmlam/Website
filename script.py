@@ -13,6 +13,9 @@ def home():
 def portfolio():
     return render_template('portfolio.html')
 
+@app.route('/test/')
+def test():
+    return render_template('test.html')
 
 if __name__ == "__main__":  #if we are executing from the main script then the app will run. but if it is imported then the app will not run
     app.run(debug=True)     #the app will update if we add things without having to restart the script.
