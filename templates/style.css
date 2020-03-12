@@ -23,3 +23,36 @@ body {
 .topnav a:hover {
     background-color:#f2f2f280
 }
+
+.row{
+    border-color:black
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.left, .right{
+    width: 10%;
+}
+.middle {
+    width: 80%;
+    background-color: white;
+}
+
+
+.footer {
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.footer p {
+    color:white;
+    text-align: right;
+    padding:0px 16px;
+}
