@@ -1,19 +1,28 @@
+html, body{
+    height:100%;
+}
+
 body {
     background-color: rgb(245, 231, 104);
     text-align: center;
     font-family: Arial;
     margin:0;
-
 }
 /*select all elements with id of topnav */
 .topnav {
+    display: table;
+    width:100%;
     background-color:rgb(0, 0, 0);
-    overflow: hidden
-    
+    overflow: hidden;
+    position: fixed;
+    top:0;
 }
 
 /*all links within topnav*/
 .topnav a {
+    display:table-cell;
+    vertical-align: middle;
+    width: auto;
     color:#f2f2f2;
     float:left;
     padding: 14px 16px;
@@ -25,7 +34,7 @@ body {
 }
 
 .row{
-    border-color:black
+    height:100%;
 }
 
 .column {
@@ -41,6 +50,7 @@ body {
 .middle {
     width: 80%;
     background-color: white;
+    overflow: hidden;
 }
 
 
