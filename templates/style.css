@@ -54,10 +54,21 @@ body {
 }
 
 .name {
-    font-size:100px ;
+    font-size:80px ;
     padding: 0px;
 }
 
+.home {
+    display: block;
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    border: 5px solid black;
+    
+}
 
 .footer {
     background-color:black;
