@@ -84,8 +84,19 @@ body {
     display:table;
     position:fixed;
 }
+/*incomplete*/
+div.gallery img{
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin: 0% 10% 0% 10%;
+}
 
-.profile {
+div.desc{
+    text-align: center;
+}
+
+div.profile {
     float:left;
     max-width:200px;
     max-height:200px;
