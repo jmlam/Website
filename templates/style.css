@@ -85,16 +85,30 @@ body {
     position:fixed;
 }
 /*incomplete*/
-div.gallery img{
-    max-width: 200px;
-    max-height: 200px;
+div.gallery {
+    width:200px;
     float: left;
-    margin: 0% 10% 0% 10%;
+    
+    margin: 30px;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
 }
 
 div.desc{
     text-align: center;
+    width:100%;
+    border: 5px solid black;
+    margin-top:5px
 }
+
+div.gallery img:hover{
+    border: 5px solid rgb(245, 231, 104)
+}
+
 
 div.profile {
     float:left;
